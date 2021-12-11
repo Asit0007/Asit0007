@@ -1,8 +1,8 @@
+### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 ![](https://visitor-badge.glitch.me/badge?page_id=Asit0007.Asit0007)
 
 <br/>
 
-- 👋 Hi, I’m @Asit0007
 - 👀 I’m interested in Blockchain Technology...
 - 🌱 I’m currently learning How to create Smart Contracts...
 - 💞️ I’m looking to collaborate on Decentralized Internet...
