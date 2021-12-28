@@ -1,5 +1,5 @@
 ### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
-![](https://visitor-badge.glitch.me/badge?page_id=Asit0007.Asit0007)
+
 
 <br/>
 
@@ -9,6 +9,9 @@
 - 📫 Reach me at asitminz007@gmail.com ...
 
 <br/>
+![](https://visitor-badge.glitch.me/badge?page_id=Asit0007.Asit0007)
+
+<br>
 
 <!---
 Asit0007/Asit0007 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
