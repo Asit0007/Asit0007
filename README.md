@@ -3,18 +3,20 @@
 
 <br/>
 
-- 👀 I’m interested in Blockchain Technology...
-- 🌱 I’m currently learning How to create Smart Contracts...
-- 💞️ I’m looking to collaborate on Decentralized Internet...
-- 📫 Reach me at asitminz007@gmail.com ...
+Hi, i'm [Asit Minz](#), a passionate computer science engineer and a strong believer of decentralised internet who is actively learning blockchain development and creating daaps from India. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in the experience, architecture, and code quality of the things I build.
+
+I am also an open-source enthusiast and maintainer. I learned a lot from the open-source community and I love how collaboration and knowledge sharing happened through open-source.
 
 <br/>
 
-<!-- <img align="right" alt="GIF" src="https://github.com/Asit0007/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" /> -->
+<img align="right" alt="GIF" src="https://github.com/Asit0007/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
 
-<!-- 📊 **this week i spent my time on:**-->
+- 💼 any freelance work? do reach, [email](mailto:asitminz007@gmail.com) :)
+- 💬 ask me about anything, i am happy to help;
 
+📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
+
 
 
 <!--END_SECTION:waka-->
