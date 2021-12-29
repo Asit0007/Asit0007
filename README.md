@@ -1,4 +1,4 @@
-### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![](https://visitor-badge.glitch.me/badge?page_id=Asit0007.Asit0007)
 
 
 <br/>
@@ -10,9 +10,16 @@
 
 <br/>
 
-![](https://visitor-badge.glitch.me/badge?page_id=Asit0007.Asit0007)
+<!-- <img align="right" alt="GIF" src="https://github.com/Asit0007/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" /> -->
 
-<br/>
+<!-- 📊 **this week i spent my time on:**-->
+
+<!--START_SECTION:waka-->
+
+
+<!--END_SECTION:waka-->
+
+
 
 <!---
 Asit0007/Asit0007 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
