@@ -14,7 +14,7 @@ I am also an open-source enthusiast and maintainer. I learned a lot from the ope
 - 💼 any freelance work? do reach, [email](mailto:asitminz007@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
 
-<!-- 📊 **this week i spent my time on:** -->
+📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
 ```text
 No Activity tracked this Week
