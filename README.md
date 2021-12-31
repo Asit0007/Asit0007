@@ -10,7 +10,7 @@ I am also an open-source enthusiast and maintainer. I learned a lot from the ope
 
 <br/>
 
-<img align="right" alt="GIF" src="https://github.com/Asit0007/abhisheknaiidu/blob/master/code.gif?raw=true" width="450" height="320" />
+<img align="right" alt="GIF" src="./images/code.gif" width="450" height="320" />
 
 # Tech Stack
 
