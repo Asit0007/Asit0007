@@ -44,7 +44,7 @@ Python     22 mins         █████░░░░░░░░░░░░�
 
 <p align="center">
 <a align="center" href="https://github.com/Asit0007">
-  <img height="160em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/> &nbsp; <img height="160em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Asit0007&layout=compact&langs_count=10&theme=algolia"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/> &nbsp; <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Asit0007&layout=compact&langs_count=10&theme=algolia"/>
 </a>
 </p>
   
