@@ -43,7 +43,7 @@ Python     22 mins         █████░░░░░░░░░░░░�
 ### ⚙️ &nbsp;GitHub Analytics
 
 <p align="center">
-<a align="center href="https://github.com/Asit0007">
+<a align="center" href="https://github.com/Asit0007">
   <img height="160em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/> &nbsp; <img height="160em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Asit0007&layout=compact&langs_count=10&theme=algolia"/>
 </a>
 </p>
