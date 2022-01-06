@@ -1,19 +1,20 @@
 p {
-  display:flex;
-  flex-direction:row;
-  justify-content:space-around;
-  flex-wrap:wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .first_image {
-  height:50%;
-  width:50%;
+  flex-basis: 200px;
+  flex-shrink:1;
+  flex-grow:1;
   
   
 }
 
 .second_image {
-  height:50%;
-  width:50%;
+  flex-basis: 200px;
+  flex-shrink:1;
+  flex-grow:1;
 
 }
