@@ -44,7 +44,7 @@ Python     22 mins         █████░░░░░░░░░░░░�
 <link rel="stylesheet" type="text/css" href="/styles.css" />
 <p class="selector">
 <ahref="https://github.com/Asit0007">
-  <img class="first_image" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia"/> &nbsp; <img class="second_image" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Asit0007&layout=compact&langs_count=10&theme=algolia"/>
+  <img height="160em" class="first_image" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia"/> &nbsp; <img height="160em" class="second_image" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Asit0007&layout=compact&langs_count=10&theme=algolia"/>
 </a>
 </p>
   
