@@ -1,7 +1,8 @@
 p {
   display:flex;
+  flex-direction:row;
   justify-content:space-around;
-  align:center;
+  flex-wrap:wrap;
   
 }
 
