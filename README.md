@@ -26,6 +26,10 @@ I am also an open-source enthusiast and maintainer. I learned a lot from the ope
 
 - 💼 any freelance work? do reach, [email](mailto:asitminz007@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
+  
+  ## If you like my work!
+  
+  <a href="https://www.buymeacoffee.com/Asit" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 <br/>
 
