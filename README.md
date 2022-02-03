@@ -1,14 +1,18 @@
 ## Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
-![version :31.12.2021](https://img.shields.io/badge/Version-31--12--2021-blue) &nbsp; ![profile count](https://komarev.com/ghpvc/?username=Asit0007&color=red) &nbsp; [![GitHub Asit0007](https://img.shields.io/github/followers/Asit0007?label=follow&style=social)](https://github.com/Asit0007) &nbsp;&nbsp; <a href="https://www.linkedin.com/in/asitminz/"><img height="20" src="./images/linkedin.png"> &nbsp; <a href="https://www.instagram.com/asitminz/"><img height="20" src="./images/download.png"> &nbsp; <a href="https://www.facebook.com/asit.minz.7/"><img height="20" src="./images/fb png.png"> &nbsp; <a href="https://www.youtube.com/channel/UCYF2HM8RAeTsdHdKJjH2FXQ?sub_confirmation=1"><img height="21" src="./images/youtube.png"> &nbsp; <a href="mailto:asitminz007@gmail.com"><img height="20" src="./images/Gmail-Logo.png"> &nbsp; <a href="https://www.hackerearth.com/@asitminz0"><img height="20" src="./images/hackerearth.jpeg"> &nbsp; <a href="https://www.codingninjas.com/codestudio/profile/ca349519-04ca-4c61-95f4-94f46de8f928"><img height="19" src="./images/cn.jpeg"> <a href="https://www.hackerrank.com/asitminz007"><img height="20" src="./images/hr.png"> <a href="https://leetcode.com/asitminz007/"><img height="22" width="32" src="./images/lc.png">
+![version :31.12.2021](https://img.shields.io/badge/Version-31--12--2021-blue) &nbsp;&nbsp; ![profile count](https://komarev.com/ghpvc/?username=Asit0007&color=red) &nbsp;&nbsp; [![GitHub Asit0007](https://img.shields.io/github/followers/Asit0007?label=follow&style=social)](https://github.com/Asit0007) &nbsp;&nbsp; <a href="https://www.linkedin.com/in/asitminz/"><img height="20" src="./images/linkedin.png"> &nbsp; <a href="https://www.instagram.com/asitminz/"><img height="20" src="./images/download.png"> &nbsp; <a href="https://www.facebook.com/asit.minz.7/"><img height="20" src="./images/fb png.png"> &nbsp; <a href="https://www.youtube.com/channel/UCYF2HM8RAeTsdHdKJjH2FXQ?sub_confirmation=1"><img height="21" src="./images/youtube.png"> &nbsp; <a href="mailto:asitminz007@gmail.com"><img height="20" src="./images/Gmail-Logo.png"> &nbsp;&nbsp; <a href="https://www.hackerearth.com/@asitminz0"><img height="20" src="./images/hackerearth.jpeg"> &nbsp;&nbsp; <a href="https://www.codingninjas.com/codestudio/profile/ca349519-04ca-4c61-95f4-94f46de8f928"><img height="19" src="./images/cn.jpeg"> <a href="https://www.hackerrank.com/asitminz007"> <img height="20" src="./images/hr.png"> <a href="https://leetcode.com/asitminz007/"><img height="22" width="32" src="./images/lc.png"> <a href="https://www.codechef.com/users/asitminz"> <img height="20" src="./images/cc.png"> &nbsp;
+
 
 
 
 <br/>
-
-Hi, i'm [Asit Minz](#), a passionate computer science engineer and a strong believer of decentralised internet who is actively learning blockchain development and creating daaps from India. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in the experience, architecture, and code quality of the things I build.
+  
+<p>  
+  
+Hi, i am [Asit Minz]("#"), a passionate computer science engineer and a strong believer of decentralised internet who is actively learning blockchain development and creating daaps from India. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in the experience, architecture, and code quality of the things I build.
 
 I am also an open-source enthusiast and maintainer. I learned a lot from the open-source community and I love how collaboration and knowledge sharing happened through open-source.
-
+  
+</p>
 <br/>
 
 <img align="right" alt="GIF" src="./images/code.gif" width="450" height="320" />
