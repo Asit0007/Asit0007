@@ -42,7 +42,7 @@ I am also an open-source enthusiast and maintainer. I learned a lot from the ope
 <!--START_SECTION:waka-->
 
 ```text
-C++   1 hr 7 mins     █████████████████████████   100.00 %
+C++   53 mins         █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
