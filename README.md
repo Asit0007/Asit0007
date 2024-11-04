@@ -64,7 +64,7 @@ No activity tracked
 <link rel="stylesheet" type="text/css" href="/styles.css" />
 <p class="selector" align="center">
 <ahref="https://github.com/Asit0007">
-  <img height="190em" class="first_image" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia"/> &nbsp; <img height="160em" class="second_image" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Asit0007&layout=compact&langs_count=10&theme=algolia"/>
+  <img height="190em" class="first_image" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia"/> &nbsp; <img height="190em" class="second_image" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Asit0007&layout=compact&langs_count=10&theme=algolia"/>
 </a>
 </p>
   
