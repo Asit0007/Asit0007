@@ -8,29 +8,56 @@
   
 <p>  
   
-Hi, I am Asit Minz, a computer science graduate currently working at a Tech company in the cloud and data center department. I am a strong believer of decentralised internet and am picking up new skills everyday. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in the experience, architecture, and code quality of the things I build.
+I am Asit Minz, a computer science graduate with 2 years of experience as a Senior Engineer specializing in Wintel & Virtualization within a DevOps environment at a tech company. My work focuses on cloud technologies and data center management, and I am passionate about the potential of decentralized internet, continuously striving to enhance my skills in this domain.
 
-I learned a lot from the open-source community and I love how collaboration and knowledge sharing happened through open-source.
+My enthusiasm for software development lies in transforming innovative ideas into reality, prioritizing user experience, robust architecture, and high code quality in all my projects. I take great pride in my ability to deliver solutions that meet technical standards while fostering user engagement.
+
+Having benefited immensely from the open-source community, I appreciate the power of collaboration and knowledge sharing that it promotes. This experience has shaped my approach to building solutions that are not only effective but also enhance the overall user experience.
   
 </p>
 <br/>
 
 <img align="right" alt="GIF" src="./images/code.gif" width="450" height="320" />
 
-# Tech Stack
+# Skills
 
-### Languages
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/Java-e11e21?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">  
+#### Programming Languages
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=C&logoColor=white"> 
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white"> 
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
+<img src="https://img.shields.io/badge/Java-e11e21?style=for-the-badge&logo=java&logoColor=white"> 
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"> 
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white"> 
+<img src="https://img.shields.io/badge/YAML-00A5E0?style=for-the-badge&logo=yaml&logoColor=white"> 
 
-### Frameworks
-<img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white"> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"> 
+#### System Administration
+<img src="https://img.shields.io/badge/Linux%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
+<img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white"> 
+<img src="https://img.shields.io/badge/VDI%20Provisioning-0066CC?style=for-the-badge&logo=vmware&logoColor=white"> 
+<img src="https://img.shields.io/badge/Patch%20Management-FF7F50?style=for-the-badge&logo=ubuntu&logoColor=white"> 
+<img src="https://img.shields.io/badge/Backup%20and%20Recovery-FFB800?style=for-the-badge&logo=backblaze&logoColor=white">
+
+#### Cloud and Virtualization
+<img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=azure&logoColor=white"> 
+<img src="https://img.shields.io/badge/VMware%20Horizon-3E7CBA?style=for-the-badge&logo=vmware&logoColor=white"> 
+<img src="https://img.shields.io/badge/VCenter-0078D6?style=for-the-badge&logo=vmware&logoColor=white"> 
+<img src="https://img.shields.io/badge/SCCM-1E8AC6?style=for-the-badge&logo=microsoft&logoColor=white"> 
+
+#### DevOps and Automation
+<img src="https://img.shields.io/badge/Python%20Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
+<img src="https://img.shields.io/badge/PowerShell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white"> 
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> 
+<img src="https://img.shields.io/badge/ITIL-3F3F3F?style=for-the-badge&logo=itil&logoColor=white">
 
 <br/>
 
 ###
 
 - 💼 any freelance work? do reach, [email](mailto:asitminz007@gmail.com) :)
-- 💬 ask me about anything, i am happy to help;
+- 💬 ask me about anything, I am happy to help;
   
   ## If you like my work!
   
@@ -38,7 +65,7 @@ I learned a lot from the open-source community and I love how collaboration and 
 
 <br/>
 
-📊 ***this week i spent my time on:***
+📊 ***This week I spent my time on:***
 <!--START_SECTION:waka-->
 
 ```text
