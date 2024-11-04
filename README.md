@@ -17,40 +17,24 @@ Having benefited immensely from the open-source community, I appreciate the powe
 </p>
 <br/>
 
-<img align="right" alt="GIF" src="./images/code.gif" width="450" height="320" />
+<div style="display: flex; justify-content: flex-end; align-items: center;">
+  <img alt="GIF" src="./images/code.gif" style="width: 100%; height: 40%;" />
+</div>
 
 # Skills
 
-#### Programming Languages
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=C&logoColor=white"> 
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white"> 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-<img src="https://img.shields.io/badge/Java-e11e21?style=for-the-badge&logo=java&logoColor=white"> 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
-<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"> 
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white"> 
-<img src="https://img.shields.io/badge/YAML-00A5E0?style=for-the-badge&logo=yaml&logoColor=white"> 
+#### Programming Languages  
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=C&logoColor=white">  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white">  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">  <img src="https://img.shields.io/badge/Java-e11e21?style=for-the-badge&logo=java&logoColor=white">  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white">  <img src="https://img.shields.io/badge/YAML-00A5E0?style=for-the-badge&logo=yaml&logoColor=white">  
 
-#### System Administration
-<img src="https://img.shields.io/badge/Linux%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
-<img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white"> 
-<img src="https://img.shields.io/badge/VDI%20Provisioning-0066CC?style=for-the-badge&logo=vmware&logoColor=white"> 
-<img src="https://img.shields.io/badge/Patch%20Management-FF7F50?style=for-the-badge&logo=ubuntu&logoColor=white"> 
-<img src="https://img.shields.io/badge/Backup%20and%20Recovery-FFB800?style=for-the-badge&logo=backblaze&logoColor=white">
+#### System Administration  
+<img src="https://img.shields.io/badge/Linux%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black">  <img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white">  <img src="https://img.shields.io/badge/VDI%20Provisioning-0066CC?style=for-the-badge&logo=vmware&logoColor=white">  <img src="https://img.shields.io/badge/Patch%20Management-FF7F50?style=for-the-badge&logo=ubuntu&logoColor=white">  <img src="https://img.shields.io/badge/Backup%20and%20Recovery-FFB800?style=for-the-badge&logo=backblaze&logoColor=white">  
 
-#### Cloud and Virtualization
-<img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=azure&logoColor=white"> 
-<img src="https://img.shields.io/badge/VMware%20Horizon-3E7CBA?style=for-the-badge&logo=vmware&logoColor=white"> 
-<img src="https://img.shields.io/badge/VCenter-0078D6?style=for-the-badge&logo=vmware&logoColor=white"> 
-<img src="https://img.shields.io/badge/SCCM-1E8AC6?style=for-the-badge&logo=microsoft&logoColor=white"> 
+#### Cloud and Virtualization  
+<img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=azure&logoColor=white">  <img src="https://img.shields.io/badge/VMware%20Horizon-3E7CBA?style=for-the-badge&logo=vmware&logoColor=white">  <img src="https://img.shields.io/badge/VCenter-0078D6?style=for-the-badge&logo=vmware&logoColor=white">  <img src="https://img.shields.io/badge/SCCM-1E8AC6?style=for-the-badge&logo=microsoft&logoColor=white">  
 
-#### DevOps and Automation
-<img src="https://img.shields.io/badge/Python%20Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-<img src="https://img.shields.io/badge/PowerShell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white"> 
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> 
-<img src="https://img.shields.io/badge/ITIL-3F3F3F?style=for-the-badge&logo=itil&logoColor=white">
+#### DevOps and Automation  
+<img src="https://img.shields.io/badge/Python%20Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white">  <img src="https://img.shields.io/badge/PowerShell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white">  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">  <img src="https://img.shields.io/badge/ITIL-3F3F3F?style=for-the-badge&logo=itil&logoColor=white">
+
 
 <br/>
 
