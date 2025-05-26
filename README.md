@@ -52,7 +52,7 @@ Having benefited immensely from the open-source community, I appreciate the powe
 📊 ***This week I spent my time on:***
 <!--START_SECTION:waka-->
 
-```text
+```txt
 No activity tracked
 ```
 
