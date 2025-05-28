@@ -53,11 +53,11 @@ Having benefited immensely from the open-source community, I appreciate the powe
 <!--START_SECTION:waka-->
 
 ```txt
-JavaScript   13 mins         ███████████▒░░░░░░░░░░░░░   45.27 %
-YAML         9 mins          ████████░░░░░░░░░░░░░░░░░   32.57 %
-HTML         4 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   14.05 %
-CSS          2 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.75 %
-Go           0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.37 %
+Go           51 mins         ████████████████░░░░░░░░░   63.73 %
+JavaScript   13 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.43 %
+YAML         9 mins          ███░░░░░░░░░░░░░░░░░░░░░░   11.82 %
+HTML         4 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.10 %
+CSS          2 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.81 %
 ```
 
 <!--END_SECTION:waka-->
