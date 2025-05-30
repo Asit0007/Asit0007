@@ -53,11 +53,11 @@ Having benefited immensely from the open-source community, I appreciate the powe
 <!--START_SECTION:waka-->
 
 ```txt
-Go           51 mins         ████████░░░░░░░░░░░░░░░░░   32.53 %
-HCL          29 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.45 %
-Bash         24 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.40 %
-Terraform    21 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.55 %
-JavaScript   13 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.39 %
+Terraform    1 hr 50 mins    ████████░░░░░░░░░░░░░░░░░   31.58 %
+Docker       1 hr 15 mins    █████▒░░░░░░░░░░░░░░░░░░░   21.70 %
+Go           51 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.85 %
+HCL          37 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.66 %
+Bash         34 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.78 %
 ```
 
 <!--END_SECTION:waka-->
