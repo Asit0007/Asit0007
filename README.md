@@ -53,11 +53,11 @@ Having benefited immensely from the open-source community, I appreciate the powe
 <!--START_SECTION:waka-->
 
 ```txt
-Go            3 hrs 8 mins    ███████░░░░░░░░░░░░░░░░░░   28.61 %
-Markdown      2 hrs 16 mins   █████▒░░░░░░░░░░░░░░░░░░░   20.77 %
-YAML          1 hr 37 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.83 %
-JavaScript    56 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 %
-HTML          41 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.25 %
+Go            2 hrs 38 mins   ███████▓░░░░░░░░░░░░░░░░░   30.98 %
+Markdown      2 hrs 16 mins   ██████▓░░░░░░░░░░░░░░░░░░   26.66 %
+JavaScript    56 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.10 %
+HTML          41 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.03 %
+YAML          37 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.28 %
 ```
 
 <!--END_SECTION:waka-->
