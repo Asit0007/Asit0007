@@ -53,11 +53,7 @@ Having benefited immensely from the open-source community, I appreciate the powe
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown      2 hrs 1 min     ███████████████░░░░░░░░░░   59.96 %
-Other         26 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.14 %
-YAML          20 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.19 %
-HCL           12 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.09 %
-Git Config    11 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.65 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
