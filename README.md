@@ -53,11 +53,11 @@ Having benefited immensely from the open-source community, I appreciate the powe
 <!--START_SECTION:waka-->
 
 ```txt
-Python       15 mins               █████████████▓░░░░░░░░░░░   54.25 %
-Bash         6 mins                █████▒░░░░░░░░░░░░░░░░░░░   21.88 %
-JSON         5 mins                █████░░░░░░░░░░░░░░░░░░░░   20.27 %
-Git Config   0 secs                ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.33 %
-Other        0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
+Python                     47 mins               ██████████▓░░░░░░░░░░░░░░   42.96 %
+Terraform                  22 mins               █████▒░░░░░░░░░░░░░░░░░░░   20.78 %
+HCL                        17 mins               ████░░░░░░░░░░░░░░░░░░░░░   16.05 %
+Bash                       6 mins                █▒░░░░░░░░░░░░░░░░░░░░░░░   05.59 %
+JSON                       5 mins                █▒░░░░░░░░░░░░░░░░░░░░░░░   05.18 %
 ```
 
 <!--END_SECTION:waka-->
