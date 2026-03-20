@@ -1,57 +1,105 @@
-## Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
-![version :31.12.2022](https://img.shields.io/badge/Version-31--12--2022-blue) &nbsp;&nbsp; ![profile count](https://komarev.com/ghpvc/?username=Asit0007&color=red) &nbsp;&nbsp; [![GitHub Asit0007](https://img.shields.io/github/followers/Asit0007?label=follow&style=social)](https://github.com/Asit0007) &nbsp;&nbsp; <a href="https://www.linkedin.com/in/asitminz/"><img height="20" src="./images/linkedin.png"> &nbsp;&nbsp; <a href="mailto:asitminz007@gmail.com"><img height="20" src="./images/Gmail-Logo.png"> &nbsp;&nbsp; <a href="https://www.hackerearth.com/@asitminz0"><img height="20" src="./images/hackerearth.jpeg"> &nbsp;&nbsp; <a href="https://www.codingninjas.com/codestudio/profile/ca349519-04ca-4c61-95f4-94f46de8f928"><img height="19" src="./images/cn.jpeg"> <a href="https://www.hackerrank.com/asitminz007"> <img height="20" src="./images/hr.png"> <a href="https://leetcode.com/asitminz007/"><img height="22" width="32" src="./images/lc.png"> <a href="https://www.codechef.com/users/asitminz"> <img height="20" src="./images/cc.png"> &nbsp;
+<h1 align="center">Hey, I'm Asit Minz <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 
-
-
-
-<br/>
-  
-<p>  
-  
-I am Asit Minz, a computer science graduate with 2 years of experience as a Senior Engineer specializing in Wintel & Virtualization within a DevOps environment at a tech company. My work focuses on cloud technologies and data center management, and I am passionate about the potential of the decentralized internet, continuously striving to enhance my skills in this domain.
-
-My enthusiasm for software development lies in transforming innovative ideas into reality, prioritizing user experience, robust architecture, and high code quality in all my projects. I take great pride in my ability to deliver solutions that meet technical standards while fostering user engagement.
-
-Having benefited immensely from the open-source community, I appreciate the power of collaboration and knowledge sharing that it promotes. This experience has shaped my approach to building solutions that are not only effective but also enhance the overall user experience.
-  
+<p align="center">
+  <b>Infrastructure Engineer → DevOps | CI/CD · IaC · Cloud Automation · Containers</b><br>
+  <sub>~4 years at Microland (Azure, VMware, hybrid infra) · Building real DevOps projects on the side · Open to freelance</sub>
 </p>
-<br/>
 
-<div style="display: flex; justify-content: flex-end; align-items: center;">
-  <img alt="GIF" src="./images/code.gif" style="width: 100%; height: 40%;" />
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/asitminz/"><img src="https://img.shields.io/badge/LinkedIn-asitminz-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
+  <a href="/cdn-cgi/l/email-protection#bfdeccd6cbd2d6d1c58f8f88ffd8d2ded6d391dcd0d2"><img src="https://img.shields.io/badge/Email-asitminz007@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/Asit0007"><img src="https://komarev.com/ghpvc/?username=Asit0007&color=0A66C2&style=flat&label=Profile+Views"/></a>
+</p>
 
-# Skills
+---
 
-#### Programming Languages  
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=C&logoColor=white">  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white">  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">  <img src="https://img.shields.io/badge/Java-e11e21?style=for-the-badge&logo=java&logoColor=white">  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white">  <img src="https://img.shields.io/badge/YAML-00A5E0?style=for-the-badge&logo=yaml&logoColor=white">  
+## What I Do
 
-#### System Administration  
-<img src="https://img.shields.io/badge/Linux%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black">  <img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white">  <img src="https://img.shields.io/badge/VDI%20Provisioning-0066CC?style=for-the-badge&logo=vmware&logoColor=white">  <img src="https://img.shields.io/badge/Patch%20Management-FF7F50?style=for-the-badge&logo=ubuntu&logoColor=white">  <img src="https://img.shields.io/badge/Backup%20and%20Recovery-FFB800?style=for-the-badge&logo=backblaze&logoColor=white">  
+I spend my days managing hybrid cloud environments (Azure, VMware, Windows/Linux) for enterprise clients at Microland. On nights and weekends I build DevOps projects end-to-end — from writing Go backends to provisioning AWS infra with Terraform to wiring up GitHub Actions pipelines — to close the gap between operations and engineering.
 
-#### Cloud and Virtualization  
-<img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=azure&logoColor=white">  <img src="https://img.shields.io/badge/VMware%20Horizon-3E7CBA?style=for-the-badge&logo=vmware&logoColor=white">  <img src="https://img.shields.io/badge/VCenter-0078D6?style=for-the-badge&logo=vmware&logoColor=white">  <img src="https://img.shields.io/badge/SCCM-1E8AC6?style=for-the-badge&logo=microsoft&logoColor=white">  
+**Currently pursuing:** HashiCorp Certified Terraform Associate · Available for freelance DevOps/Cloud work
 
-#### DevOps and Automation  
-<img src="https://img.shields.io/badge/Python%20Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white">  <img src="https://img.shields.io/badge/PowerShell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white">  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">  <img src="https://img.shields.io/badge/ITIL-3F3F3F?style=for-the-badge&logo=itil&logoColor=white">
+<p align="center">
+  <img alt="Coding GIF" src="./images/code.gif" style="width: 100%; height: 40%;" />
+</p>
 
+---
 
-<br/>
+## 🔧 Technical Stack
 
-###
+| Domain | Tools |
+|---|---|
+| **CI/CD & Automation** | GitHub Actions · GitLab CI · Ansible · Bash · PowerShell |
+| **Infrastructure as Code** | Terraform (AWS · Azure · OCI) |
+| **Containers** | Docker · Docker Compose |
+| **Cloud** | Azure (AZ-104 ✓) · AWS (EC2 · IAM · CloudWatch · S3) · OCI · DigitalOcean |
+| **OS & Systems** | Linux (RHEL · Ubuntu · Debian) · Windows Server 2016–2022 |
+| **Virtualization** | VMware vSphere/ESXi · VDI (Horizon) · Golden Image Management |
+| **Monitoring** | AWS CloudWatch · Prometheus · Grafana |
+| **Scripting & Dev** | Python · Bash · Go · NGINX · Git |
 
-- 💼 any freelance work? do reach, [email](mailto:asitminz007@gmail.com) :)
-- 💬 ask me about anything, I am happy to help;
-  
-  ## If you like my work!
-  
-  <a href="https://www.buymeacoffee.com/Asit" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+---
 
-<br/>
+## 🚀 Featured Projects
 
-📊 ***This week I spent my time on:***
+### [CloudPulse](https://github.com/Asit0007/CloudPulse) — Real-Time Cloud Monitoring Dashboard
+> **Go · AWS · Docker · Terraform · GitHub Actions · Prometheus · Grafana**
+
+A production-grade end-to-end DevOps project built from scratch — not a tutorial, not a follow-along.
+
+- Go REST API backend integrating AWS CloudWatch, GitHub API, and HashiCorp Vault for secrets
+- All AWS infrastructure (ECS Fargate, ECR, IAM roles, VPC, Security Groups) provisioned via Terraform — zero ClickOps
+- GitHub Actions pipeline: build → push to ECR → redeploy ECS on every push to `main`
+- Prometheus `/metrics` endpoint scraped by a local Grafana stack for observability beyond CloudWatch
+- Enforced IAM least-privilege and environment-variable secret management throughout
+
+---
+
+### [Magento_DeployKit](https://github.com/Asit0007/Magento_DeployKit) — Automated Linux Server Bootstrap Toolkit
+> **Bash · Linux · NGINX · PHP 8.2 · MySQL · Elasticsearch · Redis · Varnish**
+
+7 sequential shell scripts that take a bare Debian 12 server to a fully operational Magento 2 stack — in one run.
+
+- Designed a multi-layer caching topology: Varnish fronts HTTP on port 80, NGINX terminates SSL on 443, PHP-FPM runs in a dedicated pool — each concern cleanly separated
+- Varnish full-page cache impact: **~97% reduction in data transferred** on warm cache (3.0 MB → 77.4 kB, 1.60s → 910ms on catalog search)
+- Redis-backed sessions for atomicity across PHP-FPM restarts; 2 GB swap to prevent OOM kills during Composer/DI compilation
+- Deployed live on DigitalOcean (2 vCPU / 4 GB / Bangalore) with HTTPS, Elasticsearch-powered search, and phpMyAdmin on a separate subdomain
+
+---
+
+### [QuantBot](https://github.com/Asit0007/QuantBot) — Automated Crypto Trading System
+> **Python · SQLite · Streamlit · Docker · GitHub Actions · Oracle Cloud**
+
+A personal algorithmic trading bot for BTC/USDT on Binance Futures, deployed to OCI Free Tier.
+
+- Multi-gate signal engine (EMA crossover, RSI, volume, ATR volatility filter) running on 15-minute candles at 20× leverage
+- Streamlit dashboard with live P&L tracking, RSI Radar tab, trade log, and heartbeat monitoring
+- Fully containerised with Docker; CI/CD via GitHub Actions; secrets managed through environment variables
+- Paper trading mode with the same code path as live — no separate test codebase
+
+---
+
+## 🏅 Certifications
+
+- **Microsoft Certified: Azure Administrator Associate (AZ-104)** — Microsoft
+- **HashiCorp Certified: Terraform Associate** — *In Progress*
+- Ansible for the Absolute Beginner — Hands-On DevOps (Udemy)
+- AWS Node Runner — High-Availability AWS Server Provisioning (Binance Academy)
+- Postman Essential Training (LinkedIn Learning)
+
+---
+
+## 💼 Open to Freelance
+
+Looking for DevOps and Cloud engineering gigs — infrastructure automation, CI/CD pipelines, cloud migrations, IaC setup, Linux server provisioning.
+
+📩 **[asitminz007@gmail.com](mailto:asitminz007@gmail.com)** · **[Book a call on LinkedIn](https://www.linkedin.com/in/asitminz/)**
+
+---
+
+## ⏱️ This Week I Spent My Time On
+
 <!--START_SECTION:waka-->
-
 ```txt
 Terraform                  48 mins               █████████░░░░░░░░░░░░░░░░   35.34 %
 Python                     47 mins               ████████▓░░░░░░░░░░░░░░░░   34.66 %
@@ -59,25 +107,12 @@ HCL                        17 mins               ███▒░░░░░░�
 JSON                       6 mins                █▒░░░░░░░░░░░░░░░░░░░░░░░   04.73 %
 Bash                       6 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   04.51 %
 ```
-
 <!--END_SECTION:waka-->
 
-<br/>
-  
-### ⚙️ &nbsp;GitHub Analytics
-<link rel="stylesheet" type="text/css" href="/styles.css" />
-<p class="selector" align="center">
-<a href="https://github.com/Asit0007">
-  <img height="190em" class="first_image" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia"/> &nbsp; <img height="190em" class="second_image" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Asit0007&layout=compact&langs_count=10&theme=algolia"/>
-</a>
-</p>
-  
-<br/>
+---
 
+## 📊 GitHub Stats
 
-
-
-<!---
-Asit0007/Asit0007 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<p align="center">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia&hide_border=true"/>
+  <img height
