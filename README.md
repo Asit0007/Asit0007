@@ -100,13 +100,15 @@ Looking for DevOps and Cloud engineering gigs — infrastructure automation, CI/
 ## ⏱️ This Week I Spent My Time On
 
 <!--START_SECTION:waka-->
+
 ```txt
-Terraform                  48 mins               █████████░░░░░░░░░░░░░░░░   35.34 %
-Python                     47 mins               ████████▓░░░░░░░░░░░░░░░░   34.66 %
-HCL                        17 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   13.08 %
-JSON                       6 mins                █▒░░░░░░░░░░░░░░░░░░░░░░░   04.73 %
-Bash                       6 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   04.51 %
+Terraform                  1 hr 2 mins           ███████████▒░░░░░░░░░░░░░   45.70 %
+Python                     32 mins               ██████░░░░░░░░░░░░░░░░░░░   23.52 %
+HCL                        17 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   13.10 %
+Git Config                 10 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   07.70 %
+Other                      5 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   04.05 %
 ```
+
 <!--END_SECTION:waka-->
 
 ---
