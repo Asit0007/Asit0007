@@ -102,11 +102,11 @@ Looking for DevOps and Cloud engineering gigs — infrastructure automation, CI/
 <!--START_SECTION:waka-->
 
 ```txt
-Terraform                  1 hr 2 mins           ███████████▒░░░░░░░░░░░░░   45.70 %
-Python                     32 mins               ██████░░░░░░░░░░░░░░░░░░░   23.52 %
-HCL                        17 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   13.10 %
-Git Config                 10 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   07.70 %
-Other                      5 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   04.05 %
+Bash                       1 hr 9 mins           ████████░░░░░░░░░░░░░░░░░   31.80 %
+Terraform                  54 mins               ██████▒░░░░░░░░░░░░░░░░░░   24.93 %
+HCL                        39 mins               ████▒░░░░░░░░░░░░░░░░░░░░   17.95 %
+Python                     19 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   08.82 %
+YAML                       18 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   08.55 %
 ```
 
 <!--END_SECTION:waka-->
