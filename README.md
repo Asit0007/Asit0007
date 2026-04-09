@@ -102,9 +102,7 @@ Looking for DevOps and Cloud engineering gigs — infrastructure automation, CI/
 <!--START_SECTION:waka-->
 
 ```txt
-HTML         24 mins               ████████████░░░░░░░░░░░░░   48.11 %
-JavaScript   22 mins               ██████████▓░░░░░░░░░░░░░░   42.60 %
-CSS          4 mins                ██▒░░░░░░░░░░░░░░░░░░░░░░   09.28 %
+JavaScript   3 mins                █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
