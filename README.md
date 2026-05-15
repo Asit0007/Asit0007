@@ -102,8 +102,7 @@ Looking for DevOps and Cloud engineering gigs — infrastructure automation, CI/
 <!--START_SECTION:waka-->
 
 ```txt
-Terraform   1 min                 ██████████████████▒░░░░░░   73.89 %
-Python      0 secs                ██████▓░░░░░░░░░░░░░░░░░░   26.11 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
