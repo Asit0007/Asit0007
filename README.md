@@ -102,7 +102,11 @@ Looking for DevOps and Cloud engineering gigs — infrastructure automation, CI/
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Markdown     53 mins               █████████████▓░░░░░░░░░░░   54.68 %
+JavaScript   41 mins               ██████████▓░░░░░░░░░░░░░░   42.59 %
+JSON         1 min                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.36 %
+Bash         0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.69 %
+Other        0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.68 %
 ```
 
 <!--END_SECTION:waka-->
