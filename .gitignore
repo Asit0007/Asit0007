@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+atlas-credentials.env
+.vercel
+*.log

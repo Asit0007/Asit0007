@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@vercel/node": "^4.0.0",
+    "mongoose": "^9.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  }
+}

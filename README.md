@@ -8,12 +8,10 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/asitminz/"><img src="https://img.shields.io/badge/LinkedIn-asitminz-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
   <a href="/cdn-cgi/l/email-protection#bfdeccd6cbd2d6d1c58f8f88ffd8d2ded6d391dcd0d2"><img src="https://img.shields.io/badge/Email-asitminz007@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white"/></a>
-  <!-- NEW CUSTOM PROFILE VIEWS BADGE -->
-  <img src="https://<your-vercel-project>.vercel.app/api/badge" alt="Profile Views" />
+  <img src="https://asit0007.vercel.app/api/badge" alt="Profile Views" />
 </p>
 
-<!-- INVISIBLE TRACKING PIXEL (Place this anywhere in the README) -->
-<img src="https://<your-vercel-project>.vercel.app/api/tracker" width="1" height="1" />
+<img src="https://asit0007.vercel.app/api/tracker" width="1" height="1" alt="" />
 
 ---
 
