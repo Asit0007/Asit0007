@@ -1,13 +1,15 @@
 <h1 align="center">Hey, I'm Asit Minz <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 
 <p align="center">
-  <b>Infrastructure Engineer → DevOps | CI/CD · IaC · Cloud Automation · Containers</b><br>
-  <sub>~4 years at Microland (Azure, VMware, hybrid infra) · Building real DevOps projects on the side · Open to freelance</sub>
+  <b>Builder-explainer of AI systems, from an operator's chair.</b><br>
+  <sub>Production experience, not tutorials · ~4 yrs cloud & hybrid infra at Microland (Azure, VMware) → now building AI systems solo, in public</sub>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/asitminz/"><img src="https://img.shields.io/badge/LinkedIn-asitminz-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
   <a href="/cdn-cgi/l/email-protection#bfdeccd6cbd2d6d1c58f8f88ffd8d2ded6d391dcd0d2"><img src="https://img.shields.io/badge/Email-asitminz007@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white"/></a>
+  <a href="https://blogs.asitminz.com"><img src="https://img.shields.io/badge/Blog-blogs.asitminz.com-c84b11?style=flat&logo=rss&logoColor=white"/></a>
+  <a href="https://asitminz.com"><img src="https://img.shields.io/badge/Portfolio-asitminz.com-0f0f0e?style=flat&logo=vercel&logoColor=white"/></a>
   <img src="https://asit0007.vercel.app/api/badge" alt="Profile Views" />
 </p>
 
@@ -17,7 +19,7 @@
 
 ## What I Do
 
-I spend my days managing hybrid cloud environments (Azure, VMware, Windows/Linux) for enterprise clients at Microland. On nights and weekends I build DevOps projects end-to-end — from writing Go backends to provisioning AWS infra with Terraform to wiring up GitHub Actions pipelines — to close the gap between operations and engineering.
+I spend my days running hybrid cloud environments (Azure, VMware, Windows/Linux) for enterprise clients at Microland — incident triage, DR drills, patch cycles, the unglamorous end of the field where you learn what things actually do when they break. On nights and weekends I point that same operator's discipline at AI systems: building them solo, under hard constraints, and writing down what actually happens when they run — cost, latency, failure modes, what breaks. [Read the build logs →](https://blogs.asitminz.com)
 
 **Currently pursuing:** HashiCorp Certified Terraform Associate · Available for freelance DevOps/Cloud work
 
@@ -31,6 +33,7 @@ I spend my days managing hybrid cloud environments (Azure, VMware, Windows/Linux
 
 | Domain | Tools |
 |---|---|
+| **AI Systems** | Multi-provider LLM chains (DeepSeek · Grok · Gemini) · Node/Express · Python · SQLite job orchestration |
 | **CI/CD & Automation** | GitHub Actions · GitLab CI · Ansible · Bash · PowerShell |
 | **Infrastructure as Code** | Terraform (AWS · Azure · OCI) |
 | **Containers** | Docker · Docker Compose |
@@ -43,6 +46,32 @@ I spend my days managing hybrid cloud environments (Azure, VMware, Windows/Linux
 ---
 
 ## 🚀 Featured Projects
+
+**AI systems**
+
+### [ContentPipe](https://github.com/Asit0007/ContentPipe) — News Story → Video Brief
+> **Node · Express · Vite/React · TypeScript · Multi-provider LLM chain**
+
+Turns a news story and its source links into a production-ready video brief: researched dossier, narrative plan, scene-by-scene script, image prompts, motion direction, citations.
+
+- Provider chain (DeepSeek → Grok → Groq → Cerebras → OpenRouter free → Mistral → Gemini last) — text generation isn't locked to one vendor's free-tier quota
+- Strict mode for automated callers: quota/overload returns a real 429/503 + `Retry-After`, never silently degraded content
+- An interrupted run resumes from disk on the identical re-POST — no wasted quota on a retry
+
+---
+
+### [CyberPipe](https://github.com/Asit0007/CyberPipe) — Durable Orchestrator for ContentPipe
+> **Python · SQLite · Telegram**
+
+Runs ContentPipe as an unattended job instead of a one-shot script call.
+
+- SQLite-backed job state machine with a 60-second scheduler — survives crashes, resumes where it left off
+- Telegram approve/regenerate checkpoint before a script is considered final — a human stays in the loop
+- Rate-limit aware across requests spanning minutes to days, not just within one
+
+---
+
+**Operator track record**
 
 ### [CloudPulse](https://github.com/Asit0007/CloudPulse) — Real-Time Cloud Monitoring Dashboard
 > **Go · AWS · Docker · Terraform · GitHub Actions · Prometheus · Grafana**
@@ -119,4 +148,4 @@ Python       31 mins               █▒░░░░░░░░░░░░░
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia&hide_border=true"/>
-  <img height
+</p>
