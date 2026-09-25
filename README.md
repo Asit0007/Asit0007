@@ -79,7 +79,7 @@ Runs ContentPipe as an unattended job instead of a one-shot script call.
 A production-grade end-to-end DevOps project built from scratch — not a tutorial, not a follow-along.
 
 - Go REST API backend integrating AWS CloudWatch, GitHub API, and HashiCorp Vault for secrets
-- All AWS infrastructure (ECS Fargate, ECR, IAM roles, VPC, Security Groups) provisioned via Terraform — zero ClickOps
+- All AWS infrastructure (ECR, IAM roles, VPC, Security Groups) provisioned via Terraform — zero ClickOps
 - GitHub Actions pipeline: build → push to ECR → redeploy ECS on every push to `main`
 - Prometheus `/metrics` endpoint scraped by a local Grafana stack for observability beyond CloudWatch
 - Enforced IAM least-privilege and environment-variable secret management throughout
