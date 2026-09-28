@@ -151,6 +151,6 @@ Bash         1 hr 50 mins          ██░░░░░░░░░░░░░
 </p>
 
 <p align="center">
-  <img alt="Stars earned across my repos" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2FAsit0007&query=%24.stars&label=stars%20earned&labelColor=050f2c&color=00aeff&style=flat-square&logo=github&logoColor=00aeff"/>
+  <img alt="Stars across my repos" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2FAsit0007&query=%24.stars&label=stars%20earned&labelColor=050f2c&color=00aeff&style=flat-square&logo=github&logoColor=00aeff"/>
   <img alt="Forks of my repos by others" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2FAsit0007&query=%24.forks&label=forks%20by%20others&labelColor=050f2c&color=00aeff&style=flat-square&logo=git&logoColor=00aeff"/>
 </p>
