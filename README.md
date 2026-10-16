@@ -2,12 +2,12 @@
 
 <p align="center">
   <b>Builder-explainer of AI systems, from an operator's chair.</b><br>
-  <sub>Production experience, not tutorials · ~4 yrs cloud & hybrid infra at Microland (Azure, VMware) → now building AI systems solo, in public</sub>
+  <sub>Production experience, not tutorials · 4+ yrs running hybrid infra at Microland (Windows/Linux, VMware, Azure) → now building AI systems solo, in public</sub>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/asitminz/"><img src="https://img.shields.io/badge/LinkedIn-asitminz-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
-  <a href="/cdn-cgi/l/email-protection#bfdeccd6cbd2d6d1c58f8f88ffd8d2ded6d391dcd0d2"><img src="https://img.shields.io/badge/Email-asitminz007@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:asitminz007@gmail.com"><img src="https://img.shields.io/badge/Email-asitminz007@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white"/></a>
   <a href="https://blogs.asitminz.com"><img src="https://img.shields.io/badge/Blog-blogs.asitminz.com-c84b11?style=flat&logo=rss&logoColor=white"/></a>
   <a href="https://asitminz.com"><img src="https://img.shields.io/badge/Portfolio-asitminz.com-0f0f0e?style=flat&logo=vercel&logoColor=white"/></a>
   <img src="https://asit0007.vercel.app/api/badge" alt="Profile Views" />
@@ -19,7 +19,7 @@
 
 ## What I Do
 
-I spend my days running hybrid cloud environments (Azure, VMware, Windows/Linux) for enterprise clients at Microland — incident triage, DR drills, patch cycles, the unglamorous end of the field where you learn what things actually do when they break. On nights and weekends I point that same operator's discipline at AI systems: building them solo, under hard constraints, and writing down what actually happens when they run — cost, latency, failure modes, what breaks. [Read the build logs →](https://blogs.asitminz.com)
+I spend my days as a System Administrator at Microland, keeping a hybrid enterprise estate running — 2,000+ Windows and Linux servers, VMware, a slice of Azure — through L2/L3 on-call, monthly patch cycles and DR drills: the unglamorous end of the field where you learn what things actually do when they break. On nights and weekends I point that same operator's discipline at AI systems: building them solo, under hard constraints, and writing down what actually happens when they run — cost, latency, failure modes, what breaks. [Read the build logs →](https://blogs.asitminz.com)
 
 **Currently pursuing:** HashiCorp Certified Terraform Associate · Available for freelance DevOps/Cloud work
 
@@ -33,15 +33,15 @@ I spend my days running hybrid cloud environments (Azure, VMware, Windows/Linux)
 
 | Domain | Tools |
 |---|---|
-| **AI Systems** | Multi-provider LLM chains (DeepSeek · Grok · Gemini) · Node/Express · Python · SQLite job orchestration |
-| **CI/CD & Automation** | GitHub Actions · GitLab CI · Ansible · Bash · PowerShell |
-| **Infrastructure as Code** | Terraform (AWS · Azure · OCI) |
-| **Containers** | Docker · Docker Compose |
+| **AI Systems** | Multi-provider LLM chains (Gemini · Groq · OpenRouter · Mistral and other OpenAI-compatible free tiers, ranked by model intelligence) · Cloudflare Workers AI (FLUX) · Hugging Face Spaces · Node/Express · TypeScript · Python · SQLite job orchestration |
+| **CI/CD & Automation** | GitHub Actions · Bash · PowerShell · launchd |
+| **Infrastructure as Code** | Terraform (AWS · OCI) · cloud-init |
+| **Containers** | Docker (multi-stage builds) · Docker Compose |
 | **Cloud** | Azure (AZ-104 ✓) · AWS (EC2 · IAM · CloudWatch · S3) · OCI · DigitalOcean |
-| **OS & Systems** | Linux (RHEL · Ubuntu · Debian) · Windows Server 2016–2022 |
-| **Virtualization** | VMware vSphere/ESXi · VDI (Horizon) · Golden Image Management |
-| **Monitoring** | AWS CloudWatch · Prometheus · Grafana |
-| **Scripting & Dev** | Python · Bash · Go · NGINX · Git |
+| **OS & Systems** | Linux (RHEL · CentOS · Ubuntu · Debian) · Windows Server 2016–2022 · Active Directory |
+| **Virtualization** | VMware vSphere |
+| **Monitoring** | AWS CloudWatch (incl. CloudWatch Agent) · Azure Monitor · Telegram alerting |
+| **Scripting & Dev** | Python · Bash · PowerShell · Go · TypeScript · NGINX · Git |
 
 ---
 
@@ -50,63 +50,66 @@ I spend my days running hybrid cloud environments (Azure, VMware, Windows/Linux)
 **AI systems**
 
 ### [ContentPipe](https://github.com/Asit0007/ContentPipe) — News Story → Video Brief
-> **Node · Express · Vite/React · TypeScript · Multi-provider LLM chain**
+> **Node · Express · Vite/React · TypeScript · Multi-provider LLM chain · Cloudflare Workers AI · Hugging Face Spaces**
 
-Turns a news story and its source links into a production-ready video brief: researched dossier, narrative plan, scene-by-scene script, image prompts, motion direction, citations.
+Turns a news story and its source links into a production-ready video brief: researched dossier, narrative plan, scene-by-scene script, image and image-to-video prompts, narration direction, citations.
 
-- Provider chain (DeepSeek → Grok → Groq → Cerebras → OpenRouter free → Mistral → Gemini last) — text generation isn't locked to one vendor's free-tier quota
+- Text generation walks a chain of free models ranked by intelligence across several providers — no single vendor's free-tier quota stops the pipeline
 - Strict mode for automated callers: quota/overload returns a real 429/503 + `Retry-After`, never silently degraded content
-- An interrupted run resumes from disk on the identical re-POST — no wasted quota on a retry
+- An interrupted run resumes from an on-disk checkpoint on the identical retry — no wasted quota
+- Research refuses sources it cannot decode, separates a page's stated date from the date it was read, archives the exact source text and reports how many key facts are genuinely cited; every fetched URL is SSRF-checked on each redirect hop
 
 ---
 
-### [CyberPipe](https://github.com/Asit0007/CyberPipe) — Durable Orchestrator for ContentPipe
-> **Python · SQLite · Telegram**
+### [CyberPipe](https://github.com/Asit0007/CyberPipe) — Durable Orchestrator: Brief → Video Edit
+> **Python · SQLite (WAL) · Telegram · launchd · TypeScript media CLI**
 
-Runs ContentPipe as an unattended job instead of a one-shot script call.
+Runs ContentPipe, then a media stage, as one unattended job instead of a chain of one-shot script calls.
 
-- SQLite-backed job state machine with a 60-second scheduler — survives crashes, resumes where it left off
-- Telegram approve/regenerate checkpoint before a script is considered final — a human stays in the loop
-- Rate-limit aware across requests spanning minutes to days, not just within one
+- SQLite-backed job state machine with a 60-second scheduler — a crash or an exhausted free quota resumes exactly where it stopped
+- Telegram approval gates at the stills, narration and final-cut stages, with approve / regenerate / redo-just-these-scenes — no generated script or media advances without a human decision
+- Pauses when the free video-generation quota runs out and resumes when it is expected back, without spending a retry attempt
+- The media stage (a private TypeScript CLI) produces stills, two-voice narration loudness-matched to -16 LUFS and an FCPXML timeline that opens in DaVinci Resolve, under a hard $0 spend guard that refuses unknown or paid providers
 
 ---
 
 **Operator track record**
 
 ### [CloudPulse](https://github.com/Asit0007/CloudPulse) — Real-Time Cloud Monitoring Dashboard
-> **Go · AWS · Docker · Terraform · GitHub Actions · Prometheus · Grafana**
+> **Go · AWS · Docker · Terraform · GitHub Actions · HashiCorp Vault**
 
-A production-grade end-to-end DevOps project built from scratch — not a tutorial, not a follow-along.
+An end-to-end DevOps project built from scratch — not a tutorial, not a follow-along. *(AWS infrastructure decommissioned Aug 2026; code and Terraform remain in the repo.)*
 
-- Go REST API backend integrating AWS CloudWatch, GitHub API, and HashiCorp Vault for secrets
-- All AWS infrastructure (ECR, IAM roles, VPC, Security Groups) provisioned via Terraform — zero ClickOps
-- GitHub Actions pipeline: build → push to ECR → redeploy ECS on every push to `main`
-- Prometheus `/metrics` endpoint scraped by a local Grafana stack for observability beyond CloudWatch
-- Enforced IAM least-privilege and environment-variable secret management throughout
+- Go REST API querying CloudWatch (AWS SDK v2, `AWS/EC2` and `CWAgent` namespaces) and the GitHub API, serving the static frontend from the same binary
+- AWS environment provisioned with Terraform: EC2 instance, security group, IAM role, policy and instance profile, `user_data` bootstrap
+- GitHub Actions pipeline: build → push to Docker Hub → redeploy over SSH with a post-deploy image prune
+- GitHub token fetched at boot from HashiCorp Vault (KV v2, policy-scoped token); no long-lived AWS access keys on the host — credentials come from the EC2 instance profile
+- Fails closed at startup if Vault or the GitHub client can't initialise, rather than running in a degraded state
 
 ---
 
-### [Magento_DeployKit](https://github.com/Asit0007/Magento_DeployKit) — Automated Linux Server Bootstrap Toolkit
-> **Bash · Linux · NGINX · PHP 8.2 · MySQL · Elasticsearch · Redis · Varnish**
+### Magento_DeployKit — Linux Server Bootstrap Scripts
+> **Bash · Debian 12 · NGINX · PHP-FPM · MySQL · Elasticsearch · Varnish**
 
-7 sequential shell scripts that take a bare Debian 12 server to a fully operational Magento 2 stack — in one run.
+A set of ordered Bash scripts that bring up a nine-service Magento 2 stack on a single Debian 12 host — a reference build for dev/staging, not a production one-shot installer.
 
-- Designed a multi-layer caching topology: Varnish fronts HTTP on port 80, NGINX terminates SSL on 443, PHP-FPM runs in a dedicated pool — each concern cleanly separated
-- Varnish full-page cache impact: **~97% reduction in data transferred** on warm cache (3.0 MB → 77.4 kB, 1.60s → 910ms on catalog search)
-- Redis-backed sessions for atomicity across PHP-FPM restarts; 2 GB swap to prevent OOM kills during Composer/DI compilation
-- Deployed live on DigitalOcean (2 vCPU / 4 GB / Bangalore) with HTTPS, Elasticsearch-powered search, and phpMyAdmin on a separate subdomain
+- NGINX as an SSL-terminating reverse proxy with a PHP-FPM upstream; Varnish full-page cache on HTTP
+- Measured page weight dropping from 3.0 MB cold to 77.4 kB warm (~97%) across the Varnish, NGINX and PHP-FPM stack
+- MySQL privilege separation (application and read-only users) and a dedicated PHP-FPM pool
+- Wrote a full engineering reference cataloguing the project's own known defects
 
 ---
 
 ### [QuantBot](https://github.com/Asit0007/QuantBot) — Automated Crypto Trading System
-> **Python · SQLite · Streamlit · Docker · GitHub Actions · Oracle Cloud**
+> **Python · Docker Compose · Dash/Plotly · Terraform (OCI) · GitHub Actions · Cloudflare Tunnel**
 
-A personal algorithmic trading bot for BTC/USDT on Binance Futures, deployed to OCI Free Tier.
+A personal algorithmic trading bot for BTC/USDT on Binance Futures, paper-trading on an Oracle Cloud ARM instance with a [live dashboard](https://quantbot.asitminz.com).
 
-- Multi-gate signal engine (EMA crossover, RSI, volume, ATR volatility filter) running on 15-minute candles at 20× leverage
-- Streamlit dashboard with live P&L tracking, RSI Radar tab, trade log, and heartbeat monitoring
-- Fully containerised with Docker; CI/CD via GitHub Actions; secrets managed through environment variables
-- Paper trading mode with the same code path as live — no separate test codebase
+- Signal: RSI divergence + MACD cross + volume spike on 15-minute candles, 5× isolated margin, validated across ~20 backtests spanning 6.9 years of bull, bear and chop
+- Four-service Docker Compose stack from one multi-stage Dockerfile; flat files on a named volume instead of a database, by design
+- Public HTTPS with zero inbound ports via Cloudflare Tunnel; Dash dashboard bound to localhost behind NGINX
+- Six Terraform resources provision the OCI network and ARM instance in one apply; six-stage GitHub Actions deploy with an open-position safety gate
+- Paper mode runs the same code path as live; a go-live gate requires 20+ paper trades within 20% of backtested expectancy before real capital
 
 ---
 
@@ -114,6 +117,7 @@ A personal algorithmic trading bot for BTC/USDT on Binance Futures, deployed to 
 
 - **Microsoft Certified: Azure Administrator Associate (AZ-104)** — Microsoft
 - **HashiCorp Certified: Terraform Associate** — *In Progress*
+- Generative AI Mastermind — Outskill
 - Ansible for the Absolute Beginner — Hands-On DevOps (Udemy)
 - AWS Node Runner — High-Availability AWS Server Provisioning (Binance Academy)
 - Postman Essential Training (LinkedIn Learning)
