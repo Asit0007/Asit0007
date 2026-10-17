@@ -1,0 +1,58 @@
+name: Repo stats
+
+# Writes the stars and forks badges into README.md as static badges. They used to be
+# fetched live from a shared counter that calls GitHub without a token; when it was
+# rate-limited it answered 0 and the README showed 0 stars / 0 forks for hours.
+# Here a failed or empty count stops the job, so the README keeps its last good numbers.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Count stars and forks on my own (non-fork) public repos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh api "users/${{ github.repository_owner }}/repos?per_page=100" --paginate \
+            -q '.[] | select(.fork == false) | "\(.stargazers_count) \(.forks_count)"' > counts.txt
+          repos=$(wc -l < counts.txt)
+          if [ "$repos" -eq 0 ]; then echo "no repos returned; leaving README alone"; exit 1; fi
+          read -r stars forks < <(awk '{s += $1; f += $2} END {print s, f}' counts.txt)
+          echo "repos=$repos stars=$stars forks=$forks"
+          python3 - "$stars" "$forks" <<'PY'
+          import re, sys
+          stars, forks = sys.argv[1], sys.argv[2]
+          style = "labelColor=050f2c&color=00aeff&style=flat-square"
+          block = (
+              "<!--REPO_STATS:START-->\n"
+              f'  <img alt="Stars across my repos" src="https://img.shields.io/badge/stars-{stars}-00aeff?{style}&logo=github&logoColor=00aeff"/>\n'
+              f'  <img alt="Forks of my repos by others" src="https://img.shields.io/badge/forks%20by%20others-{forks}-00aeff?{style}&logo=git&logoColor=00aeff"/>\n'
+              "  <!--REPO_STATS:END-->"
+          )
+          text = open("README.md").read()
+          new, n = re.subn(r"<!--REPO_STATS:START-->.*?<!--REPO_STATS:END-->", block, text, flags=re.S)
+          if n != 1:
+              sys.exit("REPO_STATS markers not found in README.md")
+          open("README.md", "w").write(new)
+          PY
+          rm counts.txt
+
+      - name: Commit if the numbers changed
+        run: |
+          if git diff --quiet README.md; then echo "no change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
+          git commit -am "README: update stars and forks badges"
+          git pull --rebase
+          git push
