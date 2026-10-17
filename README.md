@@ -137,11 +137,11 @@ Looking for DevOps and Cloud engineering gigs — infrastructure automation, CI/
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown     3 hrs 33 mins         █████████░░░░░░░░░░░░░░░░   35.60 %
-Other        1 hr 52 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.82 %
-TypeScript   1 hr 36 mins          ████░░░░░░░░░░░░░░░░░░░░░   16.13 %
-Python       1 hr 28 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   14.82 %
-YAML         59 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.93 %
+Markdown     2 hrs 53 mins         ████████▒░░░░░░░░░░░░░░░░   33.26 %
+Other        1 hr 39 mins          ████▓░░░░░░░░░░░░░░░░░░░░   19.09 %
+TypeScript   1 hr 36 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.46 %
+Python       1 hr 6 mins           ███▒░░░░░░░░░░░░░░░░░░░░░   12.76 %
+YAML         59 mins               ███░░░░░░░░░░░░░░░░░░░░░░   11.37 %
 ```
 
 <!--END_SECTION:waka-->
