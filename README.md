@@ -151,7 +151,7 @@ YAML         59 mins               ███░░░░░░░░░░░░
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Asit0007&show_icons=true&theme=algolia&hide_border=true&hide=issues,contribs"/>
 </p>
 
 <p align="center">
